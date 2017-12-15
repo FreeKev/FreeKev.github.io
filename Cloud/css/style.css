@@ -1,0 +1,25 @@
+body {
+  font-family: 'Press Start 2P', cursive;
+  align-items: center;
+  text-align: center;
+  background: url(../assets/Mountains_PS_lightened.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+p {
+  font: 'Press Start 2P', cursive;
+  display: inline-block;
+  line-height: 5%;
+}
+
+#pauseButton {
+  display: none;
+}
+
+canvas {
+  display : block;
+  margin : auto;
+}
